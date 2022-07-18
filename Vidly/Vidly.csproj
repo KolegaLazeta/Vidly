@@ -200,9 +200,38 @@
     <Compile Include="Migrations\202207151153440_ApplyAnnotationToCustomerName.designer.cs">
       <DependentUpon>202207151153440_ApplyAnnotationToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207152126505_AddNameOfMembershipType.cs" />
+    <Compile Include="Migrations\202207152126505_AddNameOfMembershipType.designer.cs">
+      <DependentUpon>202207152126505_AddNameOfMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207152201399_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\202207152201399_SetNameOfMembershipTypes.designer.cs">
+      <DependentUpon>202207152201399_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207152206244_AddColumnBirthdayToCustomer.cs" />
+    <Compile Include="Migrations\202207152206244_AddColumnBirthdayToCustomer.designer.cs">
+      <DependentUpon>202207152206244_AddColumnBirthdayToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207172124384_AddGenre.cs" />
+    <Compile Include="Migrations\202207172124384_AddGenre.designer.cs">
+      <DependentUpon>202207172124384_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207172131267_AddColumnGenreToMovies.cs" />
+    <Compile Include="Migrations\202207172131267_AddColumnGenreToMovies.designer.cs">
+      <DependentUpon>202207172131267_AddColumnGenreToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207172136180_PopulateGenre.cs" />
+    <Compile Include="Migrations\202207172136180_PopulateGenre.designer.cs">
+      <DependentUpon>202207172136180_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207172150475_ModifyColumnsInMovie.cs" />
+    <Compile Include="Migrations\202207172150475_ModifyColumnsInMovie.designer.cs">
+      <DependentUpon>202207172150475_ModifyColumnsInMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -272,6 +301,7 @@
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -307,6 +337,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202207151153440_ApplyAnnotationToCustomerName.resx">
       <DependentUpon>202207151153440_ApplyAnnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207152126505_AddNameOfMembershipType.resx">
+      <DependentUpon>202207152126505_AddNameOfMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207152201399_SetNameOfMembershipTypes.resx">
+      <DependentUpon>202207152201399_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207152206244_AddColumnBirthdayToCustomer.resx">
+      <DependentUpon>202207152206244_AddColumnBirthdayToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207172124384_AddGenre.resx">
+      <DependentUpon>202207172124384_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207172131267_AddColumnGenreToMovies.resx">
+      <DependentUpon>202207172131267_AddColumnGenreToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207172136180_PopulateGenre.resx">
+      <DependentUpon>202207172136180_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207172150475_ModifyColumnsInMovie.resx">
+      <DependentUpon>202207172150475_ModifyColumnsInMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
